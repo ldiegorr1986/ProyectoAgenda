@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- El estilo base de Boostrap -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Código fuente minificado de bootstrap -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <title>This is a title</title>
+  </head>
+    <body>
+        <header>
+          <div class="container">
+              <div class="col-md-12 info">
+                  <h1>Mantenimiento Agenda</h1>
+                  <br>
+              </div>
+          </div>
+        </header>
+        <form>
+            <div class="container" id=textboxesAgenda>
+              <div class="col-md-12">
+                <div class="panel panel-info" id=textboxesAgenda>
+                  <div class="panel-heading">
+                      Informacion Contacto
+                  </div>
+                  <div class="panel-body">
+                    <table style="width:80%">
+                      <tr>
+                        <td><label for="nombre">Nombre:</label></td>
+                        <td><input id="nombrein" type="nombre" class="informacion-nombre" name="InputNombre" placeholder="Nombre Contacto"></td>
+
+                        <td><label for="telefono">Telefono:</label></td>
+                        <td><input id="telin" type="telefono" class="informacion-telefono" name="InputTelefono" placeholder="Telefono"></td>
+                      </tr>
+                      <tr>
+                        <td><label for="direccion">Direccion:</label></td>
+                        <td><input id="direccionin" type="direccion" class="informacion-direccion" name="exampleInputPassword1" placeholder="Direccion"></td>
+
+                        <td><label for="email">email:</label></td>
+                        <td><input id="emailin" type="email" class="informacion-email" name="InputEmail" placeholder="Email"></td>
+
+                        <td><input id="llavein" type="llave" hidden></td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+                <div class="row" >
+                    <div class="col-md-12" id=botonesAgenda>
+                      <br>
+                      <button class="btn btn-success" name="botonesGuardar" type="button"><span class="glyphicon glyphicon-ok"></span> Guardar</button>
+                      <button class="btn btn-warning" name="botonesModificar" type="button"><span class="glyphicon glyphicon-pencil"></span> Modificar</button>
+                      <button class="btn btn-danger"  name="botonesEliminar"  type="button"><span class="glyphicon glyphicon-remove"></span> Eliminar</button>
+                      <button class="btn btn-info"    name="botonesCancelar"  type="button"><span class="glyphicon glyphicon-file"></span> Listar Contactos</button>
+                      <br><br>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+              <div class="col-md-12" id=botonesAgenda>
+                <div class="table-responsive">
+                  <table class="table table-hover" name="table-contacto" id="tablaContactos">
+                      <tr class="info">
+                          <th>#Contacto</th>
+                          <th>Nombre</th>
+                          <th>Telefono</th>
+                          <th>Trabajo</th>
+                          <th>Correo</th>
+                      </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+        </form>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <script src="agenda.js" charset="utf-8"></script>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    </body>
+</html>
